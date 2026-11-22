@@ -37,6 +37,7 @@ config.store_path = f"{dirs.user_config_dir}/store"
 prefix = "!"
 
 
+
 # Read credentials
 matrix_pass = os.getenv("MATRIX_PASSWORD")
 bot_name = os.getenv("BOT_NAME")
